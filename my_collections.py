@@ -6,3 +6,5 @@ details = {"name": "Adkins", "age": "17", "gender": "Male", "height": "1.87"}
 
 # set
 vowels = ("a", "e", "i", "o", "u")
+
+print(scores)
