@@ -95,10 +95,15 @@ for x in bottom_ten:
     print(f"{x['names']} , {x['total']}")
 
 # top F
-for f in sorted_by_tot:
-    if f['gender'] == "F":
-        print(f['names'])
-        break
+top_female = max(
+    [s for s in students if s["gender"] == "Female"],
+    key=lambda x: x["total"]
+)
+
+print(f"top_female: {top_female['names']} - {top_female['total']} Marks")
+
+
+
 
 best_male_chemistry = max(
     [s for s in students if s["gender"] == "Male"],
