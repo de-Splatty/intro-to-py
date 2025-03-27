@@ -100,7 +100,7 @@ top_female = max(
     key=lambda x: x["total"]
 )
 
-print(f"top_female: {top_female['names']} - {top_female['total']} Marks")
+# print(f"top_female: {top_female['names']} - {top_female['total']} Marks")
 
 
 
